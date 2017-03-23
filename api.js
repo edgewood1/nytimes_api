@@ -59,9 +59,9 @@ var articleCounter=0;
 	data = results.response;
 		for (i=0; i<records1; i++) {
 			console.log("test");
-			data1 = data.docs[records1].snippet;
-			data2 = data.docs[records1].web_url;
-			data3 = data.docs[records1].pub_date;
+			data1 = data.docs[i].snippet;
+			data2 = data.docs[i].web_url;
+			data3 = data.docs[i].pub_date;
 
 		
 			
